@@ -1,0 +1,25 @@
+//pakai extension REST client
+
+GET http://127.0.0.1:4000
+###
+
+POST http://127.0.0.1:4000
+Content-Type: application/json
+
+{
+    "name": "sham",
+    "email": "sham@gmail.com"
+}
+
+###
+
+DELETE http://127.0.0.1:4000/friz
+
+###
+PUT http://127.0.0.1:4000
+Content-Type: application/json
+
+{
+    "name": "shamsurie",
+    "email": "sham@gmail.com"
+}
